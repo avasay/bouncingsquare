@@ -18,9 +18,15 @@ body
 
 }
 
+.main-heading h1
+{
+  text-align: center;
+}
+
 .main-topnav 
 {
-
+   margin: auto;
+   border-style: dashed;
 }
 
 .main-container
