@@ -6,6 +6,13 @@ html
   background-attachment: fixed;
 }
 
+body
+{
+  width: 90%;
+  margin: auto;
+  border-style: outset; 
+}
+
 .main-heading
 {
 
