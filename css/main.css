@@ -20,6 +20,7 @@ div.image-container-center
 div.image-container-center img#logo-text
 {
   width: 40%;
+  margin-top: 10px;
 }
 
 body
@@ -32,18 +33,23 @@ body
   /*border-style: outset; */
 }
 
-div.main-topnav 
+div.heading-nav 
 {
    margin: auto;
    height: 35px;
 }
 
-div.main-topnav ul 
+div.heading-nav ul 
 {
   margin: 1px;
+}
+
+div.heading-nav ul.utility-menu 
+{
   float: right;
 }
-div.main-topnav ul li
+
+div.heading-nav ul li
 {
    list-style-type: none;
    float: left;
@@ -55,5 +61,5 @@ div.main-topnav ul li
 div.main-container
 {
   /*border-top: solid;*/
-  padding: 10px;
+  padding: 15px;
 }
