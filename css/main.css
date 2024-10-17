@@ -1,16 +1,23 @@
 html 
 {
-  background-image: url('../images/eucalyptus-wood.jpg');
-  background-repeat: repeat;
-  background-size: auto;
-  
+   background-image: url('../images/brick-1.jpg');
+  /* background-repeat: repeat;
+  background-size: auto; 
+  color:aliceblue; */
 }
 
+.image-container-centered
+{
+  text-align:center;
+  
+}
 body
 {
+  background-color: white;
   max-width: 1000px;
   height: 700px;
   margin: auto;
+  margin-top: 10px;
   border-style: outset; 
 }
 
@@ -22,12 +29,12 @@ body
 .main-heading h1
 {
   text-align: center;
+  
 }
 
 .main-topnav 
 {
    margin: auto;
-   border-style: solid;
    height: 35px;
 }
 
@@ -41,11 +48,11 @@ body
    list-style-type: none;
    float: left;
    padding: 5px;
-   border: 1px solid black;
+   border: 2px solid black;
    border-radius: 3px;
 }
 
 .main-container
 {
-  
+  border-top: solid;
 }
