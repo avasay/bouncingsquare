@@ -2,13 +2,14 @@ html
 {
   background-image: url('../images/eucalyptus-wood.jpg');
   background-repeat: repeat;
-  background-size: contain;
-  background-attachment: fixed;
+  background-size: auto;
+  
 }
 
 body
 {
-  width: 60%;
+  max-width: 1000px;
+  height: 700px;
   margin: auto;
   border-style: outset; 
 }
@@ -26,16 +27,25 @@ body
 .main-topnav 
 {
    margin: auto;
-   border-style: dashed;
+   border-style: solid;
+   height: 35px;
 }
 
-.main-container
+.main-topnav ul 
 {
-
+  margin: 1px;
+  float: right;
 }
-
 .main-topnav ul li
 {
    list-style-type: none;
    float: left;
+   padding: 5px;
+   border: 1px solid black;
+   border-radius: 3px;
+}
+
+.main-container
+{
+  
 }
