@@ -6,6 +6,10 @@ html
   color:aliceblue; */
 }
 
+canvas {
+  display: block;
+}
+
 div.main-heading
 {
 
@@ -21,6 +25,19 @@ div.image-container-center img#logo-text
 {
   width: 40%;
   margin-top: 10px;
+  
+}
+
+div.bouncing-square-container
+{
+  text-align:center;
+}
+
+img#bouncing-square
+{
+  width:3%;
+  height: auto;
+  
 }
 
 body
